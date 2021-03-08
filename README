@@ -52,6 +52,11 @@ found 1 hosts in 1.302 seconds
 Public Domain.
 
 
+= LLTD =
+
+If you want to run an LLTD daemon on Linux, there is https://github.com/Schimmelreiter/lltd
+
+
 = CONTACTS =
 
 zed [dot] 0xff [at] gmail.com
