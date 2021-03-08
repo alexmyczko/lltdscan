@@ -81,7 +81,7 @@ void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *pa
 			return;
 	}
 
-	printf("%3d bytes from %s (%-15s): time=%3d ms name=\"%s\"",
+	printf("%3d bytes from %s (%s): time=%3d ms name=\"%s\"",
 		header->caplen,
 		mac,
 		lltd_extract_ip(packet+46),
